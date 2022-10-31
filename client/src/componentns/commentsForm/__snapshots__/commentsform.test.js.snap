@@ -6,6 +6,7 @@ exports[`CommentsForm renders should CommentsForm match snapshot 1`] = `
     action="#"
   >
     <input
+      class="form"
       name="comment"
       placeholder="Add comment"
       type="text"

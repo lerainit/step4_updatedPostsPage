@@ -10,14 +10,16 @@ exports[`Navigation renders should Navigation match snapshot 1`] = `
       class="logo active"
       href="/"
     >
-      <h2>
+      <h2
+        class="logo"
+      >
         Instagram
       </h2>
     </a>
     <div
       class="auth_container"
     >
-        
+         
     </div>
     <div
       class="container"

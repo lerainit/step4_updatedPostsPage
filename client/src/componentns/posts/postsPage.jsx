@@ -19,12 +19,10 @@ const PostsPage = () => {
   const users = useSelector(store => store.users.value)
   const productsArr = useSelector(store => store.counter.counter)
   const comments = useSelector(store => store.comments.value)
-//let userId = 2
+
   const postssArr = useSelector(store => store.products.value)
   const posts = useSelector(store => store.posts.value)
- // const products = productsArr[1].posts
-  //const posts1 =postssArr[1].posts
-//console.log(posts)
+ 
  
  
   return (
